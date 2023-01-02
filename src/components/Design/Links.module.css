@@ -1,0 +1,7 @@
+.linksContainer {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: calc(100% - 40px);
+}

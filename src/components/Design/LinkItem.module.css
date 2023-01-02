@@ -1,0 +1,67 @@
+.container {
+  padding: 5px 10px;
+  width: calc(100% - 20px - 4px);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.handle {
+  padding: 7px 6px;
+  cursor: grab;
+  border-radius: 10px;
+  display: flex;
+  justify-content: centerx;
+}
+
+.handle:hover {
+  background-color: rgb(200, 200, 200);
+}
+
+.handle:active {
+  cursor: grabbing;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.linkWrapper {
+  width: 100%;
+}
+
+.linkWrapper input {
+  font-size: inherit;
+  width: 100%;
+  padding: 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+.titleWrapper {
+  width: max-content;
+  padding: 0px 5px;
+  border-radius: 5px;
+}
+
+.titleWrapper:hover {
+  background-color: rgb(200, 200, 200);
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.2rem;
+}
+
+.link {
+  font-size: 1rem;
+}
+
+.text {
+  font-family: var(--text-font);
+}

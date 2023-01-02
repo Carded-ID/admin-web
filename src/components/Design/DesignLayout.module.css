@@ -1,0 +1,75 @@
+.layout {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+  width: 100%;
+}
+
+.designerWrapper {
+  position: relative;
+}
+
+.tabsContainer {
+  position: absolute;
+  top: -34px;
+  display: flex;
+  gap: 10px;
+  padding: 0px 25px;
+}
+
+.tab {
+  font-family: var(--text-font);
+  font-weight: 700;
+  font-size: 1.3rem;
+  width: max-content;
+  height: max-content;
+  background-color: #cdb5cb;
+  padding: 5px 17px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.tab:hover {
+  background-color: #ad8faa;
+  cursor: pointer;
+}
+
+.tabActive {
+  background-color: white;
+}
+
+.tabActive:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+.designer {
+  width: 600px;
+  height: 550px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+  padding: 20px 30px;
+  display: grid;
+  grid-template-rows: max-content auto max-content;
+}
+
+.pageTitle {
+  font-family: var(--text-font);
+  font-size: 2rem;
+}
+
+.saveBtn {
+  font-family: var(--text-font);
+  font-size: 1.4rem;
+  color: white;
+  width: max-content;
+  margin-left: auto;
+  background-color: var(--carded-primary);
+  border: none;
+  border-radius: 15px;
+  padding: 5px 20px;
+}
+
+.saveBtn:hover {
+  background-color: var(--carded-primary-hover);
+  cursor: pointer;
+}

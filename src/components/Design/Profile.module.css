@@ -1,0 +1,79 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: -10px;
+}
+
+.label {
+  font-family: var(--text-font);
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-top: 17px;
+}
+
+.imageSelector {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.imageSelector img {
+  height: 110px;
+  border-radius: 50%;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.button {
+  font-family: var(--text-font);
+  font-size: 1rem;
+  text-align: center;
+  min-width: max-content;
+  min-height: max-content;
+  padding: 8px 12px;
+  border-radius: 15px;
+}
+
+.button.primary {
+  color: white;
+  background-color: var(--carded-primary);
+  border: none;
+}
+
+.button.secondary {
+  color: var(--carded-primary);
+  background-color: white;
+  border: 2px solid var(--carded-primary);
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button.primary:hover {
+  background-color: var(--carded-primary-hover);
+}
+
+.button.secondary:hover {
+  background-color: rgb(206, 206, 206);
+  color: var(--carded-primary-hover);
+  border: 2px solid var(--carded-primary-hover);
+}
+.fileInput input {
+  display: none;
+}
+
+.textInput {
+  font-size: 1rem;
+  padding: 3px;
+}
+
+textarea.textInput {
+  height: 70px;
+}

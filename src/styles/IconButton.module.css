@@ -1,0 +1,18 @@
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  padding: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:hover .icon {
+  color: rgb(206, 206, 206);
+}
+
+.icon {
+  width: max-content;
+  color: white;
+}

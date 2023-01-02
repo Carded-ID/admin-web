@@ -1,0 +1,19 @@
+.header {
+  background-color: var(--carded-primary);
+  border-radius: 23px;
+  padding: 0px 30px;
+  height: 70px;
+  display: grid;
+  grid-template-columns: min-content min-content auto min-content;
+  grid-template-rows: 70px;
+  align-items: center;
+  gap: 30px;
+  width: 90%;
+  box-shadow: 3px 3px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.title {
+  font-family: var(--header-font);
+  color: white;
+  font-size: 2rem;
+}

@@ -1,0 +1,11 @@
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+  width: 90vw;
+  max-width: 1400px;
+  margin: auto;
+  min-height: calc(100vh - 20px);
+  padding-top: 20px;
+}
